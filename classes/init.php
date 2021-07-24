@@ -1,0 +1,10 @@
+<?php
+require_once('user.php');
+require_once('database.php');
+require_once('config.php');
+require_once('session.php');
+require_once('product.php');
+require_once('order.php');
+require_once('contacts.php');
+require_once('logout.php');
+?>

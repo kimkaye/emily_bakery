@@ -1,0 +1,55 @@
+@media screen and (max-width: 770px) {
+    .p1 {
+        text-align: center !important;
+    }
+    .site-title {
+        text-align: center !important;
+    }
+    .image-container {
+        text-align: center;
+    }
+}
+main {
+    font-family: Segoe UI Semibold;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: white ;
+}
+header {
+    background-color: palevioletred;
+    font-family: Segoe UI Semibold;  color: white;
+}
+header .site-title {
+    font-family: Segoe UI Semibold;  color: white;
+    text-align: center;
+}
+.header-links a {
+    font-size: 17px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: palevioletred;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.image {
+    background-color: white;
+    background-image: url("../assets/1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 650px;
+}

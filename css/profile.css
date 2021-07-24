@@ -1,0 +1,108 @@
+.profile_card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.title {
+  color: purple;
+  font-size: 18px;
+}
+body{
+  background-color: white;
+}
+button {
+  display: inline-block;
+  padding: 5px;
+  color: black;
+  background-color: palevioletred;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+a {
+  font-size: 12px;
+  color: black;
+}
+
+#leftbox {
+  float:left;
+  width:80%;
+  height:300px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+#rightbox{
+  float:right;
+  width:20%;
+  height:300px;
+}
+.infographic {
+  margin: 18px 0;
+}
+
+.infographic__grid {
+  display: flex;
+  margin: 12px 0;
+}
+.infographic__grid__item {
+  width: calc(33.33% - 16px);
+  padding: 18px;
+}
+.infographic__grid__item__title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center !important;
+  width: 100%;
+  margin: 0;
+}
+.title-pink {
+  color: pink !important;
+}
+.title-lightpink {
+  color: lightpink !important;
+}
+.title-deeppink {
+  color: deeppink !important;
+}
+.title-hotpink {
+  color: hotpink !important;
+}
+p.infographic__grid__item__p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+@media screen and (max-width: 695px) {
+  .infographic__grid {
+    flex-direction: column;
+  }
+  .infographic__grid__item {
+    width: calc(100% - 16px);
+  }
+}
+
+
+.filter-box {
+  margin: 10px 3% 0 2%;
+  padding:0;
+  align-content: center;
+  background:linear-gradient(to right,
+  transparent 15px,
+  white 15px,
+  white 17px,
+  transparent 17px)
+}
+.filter-box > .main-cat {
+  background-color: pink;
+  display: block;
+  margin-top: 5px;
+  padding: 10px;
+}

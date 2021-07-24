@@ -1,0 +1,53 @@
+.message_box .box{
+ margin: 15px 0px;
+ text-align: center;
+ font-weight: bold;
+ color: crimson;
+}
+.table td {
+ border-bottom: black 1px solid;
+ padding: 12px;
+}
+
+.cart .remove {
+ background: none;
+ border: none;
+ color: crimson;
+ cursor: pointer;
+ padding: 0px;
+ font-weight: bold;
+
+}
+
+.quantity {
+ width: 30%;
+ text-align: center;
+}
+
+.checkout-btn {
+ border-radius: 5px;
+ background-color: pink;
+ color: black;
+ font-weight: bold;
+ text-align: center;
+ margin-top:20px;
+ margin-right: 38px;
+ width: 140px;
+ height: 40px;
+}
+
+.delivery-details {
+ padding: 10px;
+
+}
+button {
+ display: inline-block;
+ padding: 5px;
+ color: black;
+ background-color: palevioletred;
+ text-align: center;
+ cursor: pointer;
+ width: 100%;
+ font-size: 15px;
+}
+

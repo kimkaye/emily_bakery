@@ -1,0 +1,128 @@
+.tab-content {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6px;
+}
+.nav-tabs li a {
+  background-color: white !important;
+}
+
+.nav-tabs li a:hover {
+  color: palevioletred;
+  background-color: white !important;
+}
+
+.nav-link {
+  color: palevioletred;
+  text-align: center;
+}
+
+.items {
+  width: 33.333%;
+}
+
+.nav-tabs li a:focus {
+  background-color: white !important;
+}
+
+.amount-input {
+  width: 40px;
+}
+.col {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.card {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: contain;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  background-color: lightpink;
+  position: relative;
+}
+
+.col {
+  padding: 5px;
+}
+.add-to-cart {
+  border-radius: 3px;
+  background-color: lightpink;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .add-to-cart {
+    margin: 5px auto;
+    left: 30%;
+  }
+}
+.text-1 {
+  animation: text1;
+}
+.text-2 {
+  animation: text2;
+}
+.text-3 {
+  animation: text3;
+}
+.text-4 {
+  animation: text4;
+}
+.text-5 {
+  animation: text5;
+}
+.text-6 {
+  animation: text6;
+}
+
+@media screen and (max-width: 596px) {
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 18px;
+  }
+}
+
+.cart_div {
+  float: right;
+  font-weight:bold;
+  position:relative;
+  top: 10px;
+  left: 20px;
+}
+
+.added_to_cart_message {
+  font-weight:bold;
+  position:relative;
+  top: 10px;
+  left: 80px;
+}
